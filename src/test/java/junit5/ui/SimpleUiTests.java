@@ -19,6 +19,7 @@ public class SimpleUiTests {
     private WebDriver driver;
     private String downloadFolder = System.getProperty("User.dir") + File.separator + "build" + File.separator + "downloadFiles";
     private String k;
+    private String a;
 
     @BeforeAll
     public static void downloadDriver() {
